@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+      .remove-background{
+        background-color:black;
+      }  
+    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabaliza | Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="icon" href="favicon (1).ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img id="profile-image" src="pictures.jpg" class="remove-background circle-image" alt="Cabaliza, Mark Nathaniel 0." width="50" height="150">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Cabaliza, Mark Nathaniel O.">Cabaliza, <br>Mark Nathaniel O.</h1>
+          <p class="title">Student</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="marknathanielcabaliza@gmail.com" class="contact-link">marknathaniel<br>cabaliza@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="phone:09676377407" class="contact-link">09676377407</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-09-08">Sept. 08, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Calbayog City, Samar, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://web.facebook.com/marknathaniel.cabalizaii" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fbabs_tammy%3Figsh%3DbGNzMGZmNDdkMzgy&h=AT2Ce0MWoUW9OzqrN0AlqKcTiblcEq8spy6DfQOTa47Td3aBnPSIYYt4YDo2AwFxxzOrBPyd1gn5pKy1P0XGssuFC0Sf_GKa2YAH66BsqpXQLQt8E7sL3WqCP8SgtxkBtCH0Cw" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>pictures</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I am Mark Nathaniel O. Cabaliza from Brgy. Rawis, Calbayog City.
+             I am currently enrolled at NwSSU, pursuing a Bachelor of Science in Information Technology. 
+            I am in my second year of college. 
+            One of my favorite hobbies is playing billiards since I really enjoy playing it.
+          </p>
+            
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">MY HOBBIES</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="billiard.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Playing Billiard</h4>
+
+                <p class="service-item-text">
+                  One of my most favorite hobby above all
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="games.avif" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Playing Mobile Games</h4>
+
+                <p class="service-item-text">
+                  Finding joy and excitement in playing games.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="capture.jpg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I Preserving memories and emotions through capturing it.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="video.avif" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Editing</h4>
+
+                <p class="service-item-text">
+                  I do love editing.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          -Family
+        -->
+
+        <section class="Family">
+
+          <h3 class="h3 testimonials-title">Family</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="mother.jpg" alt="Gemma Cabaliza" width="60"height="80" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gemma Cabaliza</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    My Mother
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="Father.jpg" alt="Oliver Cabaliza" width="60" height="60"data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Oliver Cabaliza</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    My Father
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="lovely.jpg" alt="Ma. Chloe O. Cabaliza" width="60" height="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ma. Chloe O. Cabaliza</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    My Sister
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title"></h3>
+
+          <ul class="clients-list has-scrollbar">
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Northwest Samar State University</h4>
+
+              <span>2022 — 2024</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bagacay Integrated School</h4>
+
+              <span>2016 — 2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rawis Elementary School</h4>
+
+              <span>2007 — 2016</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Video Editing</h4>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Photography</h4>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dancing</h4>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Rate for my skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Video Editing</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photography</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Dancing</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="pictures" data-page="pictures">
+
+        <header>
+          <h2 class="h2 article-title">Pictures & Videos</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>With my boyfie</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Videos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>My pictures</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>With my boyfie</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Videos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>My pictures</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="my pictures">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Ako.jpg" alt="Type: JPG" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">My pictures</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my pictures">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Ako-1.jpg" alt="Type: jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">My pictures</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="with my boyfie">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="boyfie (1).jpg" alt="Type: jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">With my boyfie</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="videos">
+              <a href="#">
+
+
+                  <video src="ME (1).mp4" alt="Type: MP4" width="300" height="300"controls >
+                    </video>
+
+                <h3 class="project-title">Type: MP4</h3>
+
+                <p class="project-category">Videos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="with my boyfie">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="boyfie (2).jpg" alt="Type: jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">With my boyfie</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="with my boyfie">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="boyfie (3).jpg" alt="Type: jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">With my boyfie</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my pictures">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Ako-2.jpg" alt="Type: jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">My pictures</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="videos">
+              <a href="#">
+
+                  <video src="ME (2).mp4" alt="Type: MP4" width="300" height="300" controls >
+                  </video>
+
+                <h3 class="project-title">Type: MP4</h3>
+
+                <p class="project-category">Videos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my pictures">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Ako-3.jpg" alt="Type: jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Type: jpg</h3>
+
+                <p class="project-category">my pictures</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d176511.5924709047!2d124.47684718760003!3d12.153693547476834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3309d955085f8033%3A0x6f3058bea75d4605!2sCalbayog%20City%2C%20Samar!5e0!3m2!1sen!2sph!4v1712839260424!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="main.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
